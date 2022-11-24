@@ -8,24 +8,24 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <button id="A">PlayerA</button>
-        <button id="B">PlayerB</button>
+        <button id="A" data-start="stop">PlayerA</button>
+        <button id="B" data-start="stop">PlayerB</button>
       </div>
       <div class="container">
         <div class="playerAdiv">
-          <input type="text" id="playerA"  />
+          <input type="text" id="playerA" value="15:00"  />
         </div>
         <div class="playerBdiv">
-          <input type="text" id="playerB" />
+          <input type="text" id="playerB"  value="15:00" />
         </div>
       </div>
       <div class="container">
-        <button id="start">Start</button>
-        <button id="dual">Pause</button>
-        <button id="reset">Reset</button>
-		<button id="check">Checkmate</button>
+        <button id="start" data-start="stop">Start</button>
+        <button id="dual" data-pause="resume">Pause</button>
+        <button id="reset" data-start="stop">Reset</button>
+		<button id="check" data-check ="stop">Checkmate</button>
       </div>
     </div>
-    <script src="main.js"></script>
+    <script src="2.js"></script>
   </body>
 </html>
